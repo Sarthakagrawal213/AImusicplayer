@@ -1,0 +1,118 @@
+.login-container {
+  height: 100vh;
+  width: 100%;
+  background: url("/music1.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-card {
+  width: 450px;
+  padding: 60px 50px;
+  border-radius: 30px;
+
+  /* Reduced blur */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+
+  color: white;
+  text-align: center;
+}
+
+.login-header {
+  margin-bottom: 40px;
+}
+
+.login-header h2 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  background: linear-gradient(90deg, #ffffff, #cfd9df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-form .input-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.login-form .input-group input {
+  width: 100%;
+  padding: 16px 50px 16px 20px;
+  border-radius: 40px;
+
+  /* Stronger contrast */
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.login-form .input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.login-form .input-group input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+.login-form .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.options a {
+  color: white;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 40px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #f2f2f2;
+  transform: translateY(-3px);
+}
+
+.register-text {
+  margin-top: 30px;
+  font-size: 15px;
+}
+a{
+    color : white;
+    text-decoration: none;
+}
