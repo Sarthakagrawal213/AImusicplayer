@@ -2,7 +2,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL: import.meta.env.MODE === "development"
     ? "http://localhost:3000"
-    : "https://your-backend-name.onrender.com",
+    : "https://aimusicplayer.onrender.com",
   withCredentials: true,
 });
 export async function register({ username, email, password }) {
