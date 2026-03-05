@@ -253,7 +253,7 @@ export default function FaceExpression() {
             ></div>
           </div>
 
-          <h1 className="emotion-text">{emotion}</h1>
+          {/* <h1 className="emotion-text">{emotion}</h1> */}
         </div>
 
         <div className="right-panel">
